@@ -43,6 +43,12 @@ The following table shows the average world state sync time, and blockchain down
 
 You can store the world state using [Forest of Tries](../../concepts/data-storage-formats.md#forest-of-tries) or [Bonsai Tries](../../concepts/data-storage-formats.md#bonsai-tries). We recommend using Bonsai Tries for the lowest storage requirements.
 
+:::caution
+
+As of 2024, syncing mainnet with Forest of Tries is not supported. Pick Bonsai, if you want to sync mainnet.
+
+:::
+
 ## Run a full node
 
 You can run a full node using [snap synchronization (snap sync)](#snap-synchronization), [checkpoint synchronization (checkpoint sync)](#checkpoint-synchronization), or [fast synchronization (fast sync)](#fast-synchronization).
